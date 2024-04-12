@@ -1,5 +1,4 @@
 .gallary-title {
-  border: 1px solid red;
   text-align: center;
   font-size: 40px;
   font-weight: 100;
@@ -7,4 +6,7 @@
 .gallery {
   margin-left: 5%;
   margin-right: 5%;
+}
+.d-block {
+  background-image: url("public/wave.png");
 }

@@ -12,7 +12,6 @@
 .school-imgs-box {
   height: 31.2em;
   width: 37.5em;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: ce;
@@ -36,7 +35,6 @@
   font-weight: 600;
   font-size: 1.25em;
   color: gray;
-  border: 1px solid red;
   width: 31.25em;
 }
 .about-btn {
@@ -74,7 +72,6 @@
 
 @media screen and (max-width: 480px) {
   .abt {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,14 +101,12 @@
     height: 300px;
     position: relative;
     /* top: -100px; */
-    border: 1px solid red;
   }
   .img-container {
     width: 300px;
     height: 300px;
     position: relative;
     top: -300px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
