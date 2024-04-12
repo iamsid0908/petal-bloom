@@ -3,7 +3,7 @@
   margin-right: 5%;
 }
 .school-imgs {
-  background-image: url("public/about.png");
+  background-image: url("/public/about.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 31.2em;
@@ -54,7 +54,7 @@
 }
 
 .school-addmission-img {
-  background-image: url("public/admission.png");
+  background-image: url("/public/admission.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 31.25em;

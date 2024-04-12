@@ -5,42 +5,42 @@ function Offer() {
   const data = [
     {
       id: 1,
-      logo: "/shield.svg",
+      logo: "/public/shield.svg",
       title: "SAFETY FIRST",
       description:
         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
     },
     {
       id: 2,
-      logo: "/education.svg",
+      logo: "/public/education.svg",
       title: "SMALL CLASS SIZE",
       description:
         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
     },
     {
       id: 3,
-      logo: "/help.svg",
+      logo: "/public/help.svg",
       title: "INFANT CARE",
       description:
         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
     },
     {
       id: 4,
-      logo: "/education.svg",
+      logo: "/public/education.svg",
       title: "CRETIVE LESSONS",
       description:
         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
     },
     {
       id: 5,
-      logo: "/vegan.svg",
+      logo: "/public/vegan.svg",
       title: "CERTIFIED TEACHERS",
       description:
         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
     },
     {
       id: 6,
-      logo: "/planet-earth.svg",
+      logo: "/public/planet-earth.svg",
       title: "HAPPY ENVIRONMENT",
       description:
         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem",
