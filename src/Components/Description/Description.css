@@ -1,0 +1,123 @@
+.abt {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.school-imgs {
+  background-image: url("public/about.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 31.2em;
+  width: 37.5em;
+}
+.school-imgs-box {
+  height: 31.2em;
+  width: 37.5em;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: ce;
+}
+.container {
+  height: 18.75em;
+  width: 31.2em;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.12em;
+}
+.about-title {
+  font-size: 2.18em;
+  font-weight: 100;
+  margin-bottom: 1.25em;
+}
+.about-desc {
+  font-weight: 600;
+  font-size: 1.25em;
+  color: gray;
+  border: 1px solid red;
+  width: 31.25em;
+}
+.about-btn {
+  margin-top: 3.75em;
+  height: 3.12em;
+  width: 9.3em;
+  font-size: 1.25em;
+  outline: none;
+  border: none;
+  background-color: #6ebca8;
+  border-radius: 7px;
+}
+.about-btn:hover {
+  box-shadow: 10px 5px 5px gray;
+}
+
+.school-addmission-img {
+  background-image: url("public/admission.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 31.25em;
+  width: 31.25em;
+  position: relative;
+}
+.addmission-btn {
+  margin-top: 3.75em;
+  height: 3.12em;
+  width: 9.3em;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  background-color: #fdd31d;
+  border-radius: 0.4em;
+}
+
+@media screen and (max-width: 480px) {
+  .abt {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about {
+    flex-direction: column;
+    margin-bottom: 300px;
+    flex: 1;
+  }
+  .add {
+    flex: 1;
+  }
+  .about-desc {
+    width: 280px;
+  }
+  .school-imgs-box {
+    width: 300px;
+    height: 300px;
+  }
+  .school-imgs {
+    width: 300px;
+    height: 300px;
+  }
+  .school-addmission-img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    /* top: -100px; */
+    border: 1px solid red;
+  }
+  .img-container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-school {
+    position: relative;
+    top: 300px;
+  }
+}

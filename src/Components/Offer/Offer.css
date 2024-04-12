@@ -1,0 +1,37 @@
+.items-offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.item-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-right: 2%;
+  width: 500px;
+}
+.logos {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 25px;
+  top: 20px;
+}
+.img-box {
+  width: 100px;
+  height: 100px;
+}
+.img-box:hover {
+  background-color: rgb(209, 190, 14);
+}
+
+.info-data {
+  width: 200px;
+  flex: 1;
+  margin-left: 10px;
+}
+.info-data h1 {
+  font-size: 20px;
+}

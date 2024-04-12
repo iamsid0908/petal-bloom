@@ -1,0 +1,110 @@
+.home-dashboard {
+  background-image: url("/public/hero-bg.png");
+  height: 140vh;
+  width: 100wh;
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  background-position: center center;
+  border: 1px solid red;
+}
+.nav-items {
+  top: 0; /* Adjust as needed */
+  left: 0; /* Adjust as needed */
+  width: 99%;
+  position: sticky;
+  z-index: 1000;
+}
+.home-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.home-info {
+  flex: 1;
+  width: 300px;
+  height: 500px;
+}
+.title1 {
+  color: white;
+  margin-left: 20%;
+  font-size: 50px;
+  font-weight: 200;
+  width: 250px;
+}
+.desc1 {
+  color: white;
+  margin-left: 20%;
+  width: 400px;
+  margin-top: 20px;
+}
+.read-more {
+  margin-left: 20%;
+  height: 50px;
+  width: 140px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.read-more:hover {
+  box-shadow: 10px 5px 5px gray;
+}
+
+.school-img {
+  flex: 1.3;
+}
+.back-to-school-img {
+  background-image: url("public/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 34.3em;
+  width: 46.8em;
+}
+
+.offer-info {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: sans-serif;
+  position: relative;
+  top: 130px;
+}
+.offer-para {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .back-to-school-img {
+    display: none;
+  }
+  .home-info {
+    border: 1px solid red;
+    margin-top: 0px;
+  }
+  .desc1 {
+    width: 200px;
+  }
+  .offer-info {
+    border: 1px solid red;
+  }
+  .home-data {
+    flex-direction: column;
+  }
+  .mob-nav {
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100; /* Adjust as needed */
+    /* left: 0; Adjust as needed */
+    width: 100%;
+    position: fixed;
+    bottom: -00;
+    z-index: 1000;
+    background-color: #e9c113;
+  }
+}
