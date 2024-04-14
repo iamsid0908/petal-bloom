@@ -10,10 +10,10 @@ function Navbar() {
           <h1 className="logo">Petal bloom academy</h1>
         </div>
         <div className="right">
-          <a>Home</a>
-          <a>About us</a>
-          <a>Addmission</a>
-          <a>Contact us</a>
+          <a className="home">Home</a>
+          <a className="home">About us</a>
+          <a className="home">Addmission</a>
+          <a className="home">Contact us</a>
         </div>
       </div>
     </div>

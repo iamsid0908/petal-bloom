@@ -1,5 +1,6 @@
 .home-dashboard {
-  background-image: url("/public/hero-bg.png");
+  background-image: url("/wave.svg");
+  /* background-color: #17abb8; */
   height: 140vh;
   width: 100wh;
   background-size: cover; /* Adjust as needed */
@@ -9,9 +10,11 @@
 .nav-items {
   top: 0; /* Adjust as needed */
   left: 0; /* Adjust as needed */
-  width: 99%;
+  /* width: 99%; */
+  /* border: 1px solid red; */
   position: sticky;
   z-index: 1000;
+  height: 80px;
 }
 .home-data {
   display: flex;

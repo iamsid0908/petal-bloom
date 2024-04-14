@@ -1,0 +1,87 @@
+.schedule-img {
+  height: 250px;
+  width: 350px;
+}
+.schedule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+.schedule-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 1; */
+}
+.schedule-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4%;
+}
+.join-btn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #138496;
+  border-radius: 9px;
+}
+
+.schedule-title1 {
+  font-size: 25px;
+  color: #00394f;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+}
+.schedule-desc {
+  font-size: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.age-title {
+  flex: 1;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+}
+.age {
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  width: 150px;
+  flex: 1;
+  text-align: center;
+  color: gray;
+}
+@media screen and (max-width: 480px) {
+  .schedule-container {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .schedule {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .schedule-img {
+    height: 300px;
+    width: 300px;
+  }
+}

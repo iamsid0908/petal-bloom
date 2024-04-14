@@ -5,6 +5,8 @@ import Offer from "./Offer/Offer";
 import Description from "./Description/Description";
 import Gallary from "./Description/Gallery";
 import Navmobile from "./Navbar/Navmobile";
+import Schedule from "./Schedule/Schedule";
+import Bookacall from "./Bookacall/Bookacall";
 
 function Home() {
   return (
@@ -44,6 +46,8 @@ function Home() {
         <Offer />
         <Description />
         <Gallary />
+        <Schedule />
+        <Bookacall />
       </div>
     </div>
   );

@@ -7,7 +7,8 @@
   width: 100%;
   position: sticky;
   z-index: 1000;
-  background-color: #e9c113;
+  background-color: white;
+  height: 70px;
 }
 .left {
   display: flex;
@@ -30,16 +31,23 @@
   flex: 1;
 }
 .logo {
-  color: white;
+  color: #17abb1;
+  font-family: "cursive";
 }
 .right a {
   margin: 20px;
   font-size: 20px;
   font-weight: 600;
   font-family: sans-serif;
-  color: white;
 }
 
+.home {
+  color: #00394f;
+  text-decoration: none;
+}
+.home:hover {
+  color: #17abb1;
+}
 .navmobile {
   border: 1px solid red;
   width: 300px;
