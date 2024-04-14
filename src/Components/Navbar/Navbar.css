@@ -40,6 +40,22 @@
   color: white;
 }
 
+.navmobile {
+  border: 1px solid red;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.navmobile a {
+  flex: 1;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
 @media screen and (max-width: 480px) {
   .nav-bar {
     flex-direction: column;
