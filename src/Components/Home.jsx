@@ -9,6 +9,7 @@ import Schedule from "./Schedule/Schedule";
 import Bookacall from "./Bookacall/Bookacall";
 import Mentors from "./Mentors/Mentors";
 import Testimonial from "./Testimonial/Testimonial";
+import Footer from "./Footer/Footer";
 
 function Home() {
   return (
@@ -52,6 +53,7 @@ function Home() {
         <Bookacall />
         <Mentors />
         <Testimonial />
+        <Footer />
       </div>
     </div>
   );
