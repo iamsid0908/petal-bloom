@@ -1,0 +1,50 @@
+.testimo {
+  /* border: 1px solid red; */
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 300px;
+  margin-top: 5%;
+}
+.div1 {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+.parent-com {
+  width: 350px;
+  margin-left: 2%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: rgba(238, 234, 234, 0.74);
+  margin-bottom: 20px;
+}
+.test {
+  text-align: center;
+}
+.parent-com-p {
+  width: 290px;
+  /* border: 1px solid red; */
+  font-size: 18px;
+  font-family: sans-serif;
+  color: gray;
+}
+.parent-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -80px;
+}
+.quotes {
+  font-size: large;
+  color: skyblue;
+}
+.test-img {
+  border-radius: 50%;
+  margin-right: 10px;
+}

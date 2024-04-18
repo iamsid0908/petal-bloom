@@ -7,6 +7,8 @@ import Gallary from "./Description/Gallery";
 import Navmobile from "./Navbar/Navmobile";
 import Schedule from "./Schedule/Schedule";
 import Bookacall from "./Bookacall/Bookacall";
+import Mentors from "./Mentors/Mentors";
+import Testimonial from "./Testimonial/Testimonial";
 
 function Home() {
   return (
@@ -48,6 +50,8 @@ function Home() {
         <Gallary />
         <Schedule />
         <Bookacall />
+        <Mentors />
+        <Testimonial />
       </div>
     </div>
   );

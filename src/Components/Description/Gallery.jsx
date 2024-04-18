@@ -14,6 +14,7 @@ function Gallery() {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <img className="d-block w-100" src="wave.png" alt="Second slide" />
           <Carousel.Caption>
@@ -21,6 +22,7 @@ function Gallery() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <img className="d-block w-100" src="wave.png" alt="Third slide" />
           <Carousel.Caption>
