@@ -24,7 +24,7 @@ function Home() {
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
               minim veniam
             </p>
-            <button className="read-more">Read More</button>
+            <button className="read-more">Gallery</button>
           </div>
 
           <div className="school-img">

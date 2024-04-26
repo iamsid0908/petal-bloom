@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import About from "./Components/Aboutus/About";
 import Navbar from "./Components/Navbar/Navbar";
 import Navmobile from "./Components/Navbar/Navmobile";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   console.log(import.meta.env.VITE_PORT);
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
       </Routes>
       <div className="mob-nav">
         <Navmobile />
