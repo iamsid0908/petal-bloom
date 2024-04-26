@@ -4,23 +4,34 @@ import HomeIcon from "@mui/icons-material/Home";
 import AddBoxIcon from "@mui/icons-material/AddBox";
 import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
+import { Link } from "react-router-dom";
 
 function Navmobile() {
   return (
     <div>
       <div className="navmobile">
-        <a>
-          <HomeIcon />
-        </a>
-        <a>
-          <PeopleAltIcon />
-        </a>
-        <a>
-          <AddBoxIcon />
-        </a>
-        <a>
-          <PermContactCalendarIcon />
-        </a>
+        <Link style={{ textDecoration: "none" }} to="/">
+          <a>
+            <HomeIcon />
+          </a>
+        </Link>
+
+        <Link style={{ textDecoration: "none" }} to="/about">
+          <a>
+            <PeopleAltIcon />
+          </a>
+        </Link>
+
+        <Link style={{ textDecoration: "none" }} to="/about">
+          <a>
+            <AddBoxIcon />
+          </a>
+        </Link>
+        <Link style={{ textDecoration: "none" }} to="/about">
+          <a>
+            <PermContactCalendarIcon />
+          </a>
+        </Link>
       </div>
     </div>
   );

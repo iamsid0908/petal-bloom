@@ -15,9 +15,7 @@ function Home() {
   return (
     <div>
       <div className="home-dashboard">
-        <div className="nav-items">
-          <Navbar />
-        </div>
+        <div className="nav-items">{/* <Navbar /> */}</div>
         <div className="home-data">
           <div className="home-info">
             <h2 className="title1">Best way to fund your study abroad</h2>
@@ -27,9 +25,6 @@ function Home() {
               minim veniam
             </p>
             <button className="read-more">Read More</button>
-          </div>
-          <div className="mob-nav">
-            <Navmobile />
           </div>
 
           <div className="school-img">

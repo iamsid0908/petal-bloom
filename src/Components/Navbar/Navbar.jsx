@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -10,8 +11,13 @@ function Navbar() {
           <h1 className="logo">Petal bloom academy</h1>
         </div>
         <div className="right">
-          <a className="home">Home</a>
-          <a className="home">About us</a>
+          <Link style={{ textDecoration: "none" }} to="/">
+            <a className="home">Home</a>
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="/about">
+            <a className="home">About us</a>
+          </Link>
+
           <a className="home">Addmission</a>
           <a className="home">Contact us</a>
         </div>
