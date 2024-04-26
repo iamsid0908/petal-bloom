@@ -27,7 +27,7 @@ function Navmobile() {
             <AddBoxIcon />
           </a>
         </Link>
-        <Link style={{ textDecoration: "none" }} to="/about">
+        <Link style={{ textDecoration: "none" }} to="/contact-us">
           <a>
             <PermContactCalendarIcon />
           </a>
