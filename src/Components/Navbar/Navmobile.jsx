@@ -10,24 +10,27 @@ function Navmobile() {
   return (
     <div>
       <div className="navmobile">
-        <Link style={{ textDecoration: "none" }} to="/">
+        <Link style={{ textDecoration: "none", color: "white" }} to="/">
           <a>
             <HomeIcon />
           </a>
         </Link>
 
-        <Link style={{ textDecoration: "none" }} to="/about">
+        <Link style={{ textDecoration: "none", color: "white" }} to="/about">
           <a>
             <PeopleAltIcon />
           </a>
         </Link>
 
-        <Link style={{ textDecoration: "none" }} to="/about">
+        <Link style={{ textDecoration: "none", color: "white" }} to="/about">
           <a>
             <AddBoxIcon />
           </a>
         </Link>
-        <Link style={{ textDecoration: "none" }} to="/contact-us">
+        <Link
+          style={{ textDecoration: "none", color: "white" }}
+          to="/contact-us"
+        >
           <a>
             <PermContactCalendarIcon />
           </a>

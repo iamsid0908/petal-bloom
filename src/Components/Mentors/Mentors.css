@@ -50,7 +50,6 @@
 @media screen and (max-width: 480px) {
   .mentor-container {
     flex-direction: column;
-    border: 1px solid red;
   }
   .mentor-img {
     width: 250px;

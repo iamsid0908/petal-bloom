@@ -49,16 +49,17 @@
   color: #17abb1;
 }
 .navmobile {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 40px;
+  background-color: #00394f;
 }
 .navmobile a {
   flex: 1;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,6 +69,11 @@
   .nav-bar {
     flex-direction: column;
     /* height: 100vh; */
+  }
+  .navmobile {
+    border: 1px solid #00394f;
+
+    background-color: #00394f;
   }
 
   .right {
