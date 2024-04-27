@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
+  top: -90px;
 }
 .item-data {
   display: flex;
@@ -24,7 +26,7 @@
   height: 100px;
 }
 .img-box:hover {
-  background-color: rgb(209, 190, 14);
+  background-color: skyblue;
 }
 
 .info-data {
