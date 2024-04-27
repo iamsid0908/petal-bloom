@@ -7,11 +7,11 @@
   height: 500px;
   background-color: #00394f;
   color: white;
+  width: 100%;
 }
 .item1 {
   margin-left: 5%;
-  width: 390px;
-  /* border: 1px solid green; */
+  width: auto;
   /* position: relative;
 
   left: -200px; */

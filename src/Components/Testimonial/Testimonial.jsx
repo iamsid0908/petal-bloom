@@ -17,6 +17,7 @@ function Testimonial() {
     speed: 500,
     slidesToShow: slide,
     slidesToScroll: 1,
+    arrows: false,
   };
   return (
     <div className="testimo">

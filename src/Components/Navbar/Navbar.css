@@ -42,8 +42,9 @@
 }
 
 .home {
-  color: #00394f;
+  color: white;
   text-decoration: none;
+  width: auto;
 }
 .home:hover {
   color: #17abb1;

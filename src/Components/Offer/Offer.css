@@ -35,3 +35,9 @@
 .info-data h1 {
   font-size: 20px;
 }
+@media screen and (max-width: 480px) {
+  .items-offers {
+    position: relative;
+    top: -130px;
+  }
+}
