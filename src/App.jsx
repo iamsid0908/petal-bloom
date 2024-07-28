@@ -8,6 +8,7 @@ import About from "./Components/Aboutus/About";
 import Navbar from "./Components/Navbar/Navbar";
 import Navmobile from "./Components/Navbar/Navmobile";
 import Contact from "./Components/Contact/Contact";
+import Admin from "./Components/Admin/Admin";
 
 function App() {
   console.log(import.meta.env.VITE_PORT);
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
       <div className="mob-nav">
         <Navmobile />

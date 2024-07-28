@@ -1,0 +1,128 @@
+.admin-page {
+  border: 1px solid red;
+  /* height: 90vh; */
+}
+.admin-container {
+  border: 1px solid green;
+  height: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.admission-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.school-name {
+  font-size: 40px;
+  font-weight: 800;
+}
+.school-address {
+  font-size: 20px;
+  font-weight: 300;
+}
+.boder11 {
+  border: 1px solid grey;
+  width: 90%;
+  margin-bottom: 10px;
+}
+.admission-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.admission-box {
+  border: 1px solid grey;
+  height: 30px;
+  margin-left: 20px;
+}
+.admission-box1 {
+  margin-left: 20px;
+}
+.admission-input {
+  outline: none;
+  width: 50px;
+  margin-left: 5px;
+}
+.admission-div1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admission-div2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-personal-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pic {
+  border: 1px solid red;
+  height: 120px;
+  width: 120px;
+  position: relative;
+  left: 300px;
+  top: -50px;
+}
+
+.student-name {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.student-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.student-box {
+  flex: 3;
+}
+.student-input {
+  width: 100%;
+  outline: none;
+  padding-left: 10px;
+}
+.student-birth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.student-gender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.student-birth-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.birth-label {
+  flex: 1;
+}
+.birth-input {
+  flex: 0.9;
+  width: 100px;
+}
+.birth-input-box {
+  width: 110px;
+  position: relative;
+  left: -50px;
+}
