@@ -104,6 +104,175 @@ function Admin() {
               </div>
             </div>
           </div>
+          {/*nationality  */}
+          <div className="student-nationality">
+            <div className="student-nationality-con">
+              <label for="nation">Nationality:</label>
+              <select name="nation" id="nation">
+                <option value="indian">Indian</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+            <div className="student-nationality-con">
+              <label for="religion">Religion:</label>
+              <select name="religion" id="religion">
+                <option value="hindu">Hindu</option>
+                <option value="muslim">Muslim</option>
+                <option value="sikh">Sikh</option>
+                <option value="christian">Christian</option>
+              </select>
+            </div>
+            <div className="student-nationality-con">
+              <label for="category">Category:</label>
+              <select name="category" id="category">
+                <option value="gen">Gen</option>
+                <option value="obc">Obc</option>
+                <option value="ebc">Ebc</option>
+                <option value="sc">Sc</option>
+                <option value="st">St</option>
+              </select>
+            </div>
+          </div>
+          {/* address */}
+          <div className="student-address">
+            <div className="student-address-con">Address</div>
+            <div className="student-address-con2">
+              <div className="student-birth-con">
+                <label className="student-label birth-label ">Village:</label>
+                <div className="admission-box student-address-box">
+                  <input
+                    type="text"
+                    placeholder="village"
+                    className="student-input"
+                  />
+                </div>
+              </div>
+              <div className="student-birth-con">
+                <label className="student-label birth-label ">Ps:</label>
+                <div className="admission-box student-address-box">
+                  <input
+                    type="text"
+                    placeholder="post-office"
+                    className="student-input"
+                  />
+                </div>
+              </div>
+              <div className="student-birth-con">
+                <label className="student-label birth-label ">State:</label>
+                <div className="admission-box student-address-box">
+                  <input
+                    type="text"
+                    placeholder="state"
+                    className="student-input"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="student-address-con2">
+              <div className="student-birth-con">
+                <label className="student-label birth-label ">
+                  Post Office:
+                </label>
+                <div className="admission-box student-address-box">
+                  <input
+                    type="text"
+                    placeholder="village"
+                    className="student-input"
+                  />
+                </div>
+              </div>
+              <div className="student-birth-con">
+                <label className="student-label birth-label ">District:</label>
+                <div className="admission-box student-address-box">
+                  <input
+                    type="text"
+                    placeholder="post-office"
+                    className="student-input "
+                  />
+                </div>
+              </div>
+              <div className="student-birth-con">
+                <label className="student-label birth-label">Pin Code:</label>
+                <div className="admission-box student-address-box">
+                  <input
+                    type="text"
+                    placeholder="state"
+                    className="student-input"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* cn */}
+          <div className="student-contact">
+            <div className="student-name">
+              <label className="student-label">Phone No:-</label>
+              <div className="admission-box student-box">
+                <input
+                  type="number"
+                  placeholder="Enter your phone number"
+                  className="student-input"
+                />
+              </div>
+            </div>
+            <div className="student-name">
+              <label className="student-label">Aadhaar No:-</label>
+              <div className="admission-box student-box">
+                <input
+                  type="number"
+                  placeholder="Enter your aadhaar number"
+                  className="student-input"
+                />
+              </div>
+            </div>
+          </div>
+          {/* qualification */}
+          <div className="student-qualification">
+            <div className="stud-qual">Qualification:</div>
+            <div className="student-name">
+              <label className="student-label">Father:</label>
+              <div className="admission-box student-box">
+                <input
+                  type="text"
+                  placeholder="Enter your aadhaar number"
+                  className="student-input"
+                />
+              </div>
+            </div>
+            <div className="student-name">
+              <label className="student-label">Mother:</label>
+              <div className="admission-box student-box">
+                <input
+                  type="text"
+                  placeholder="Enter your aadhaar number"
+                  className="student-input"
+                />
+              </div>
+            </div>
+          </div>
+          {/* occupation */}
+          <div className="student-qualification">
+            <div className="stud-qual">Occupation:</div>
+            <div className="student-name">
+              <label className="student-label">Father:</label>
+              <div className="admission-box student-box">
+                <input type="text" className="student-input" />
+              </div>
+            </div>
+            <div className="student-name">
+              <label className="student-label">Mother:</label>
+              <div className="admission-box student-box">
+                <input type="text" className="student-input" />
+              </div>
+            </div>
+          </div>
+          {/*  */}
+          <div className="student-name">
+            <label className="student-label">Name of Local Guardian :</label>
+            <div className="admission-box student-box">
+              <input type="text" className="student-input" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

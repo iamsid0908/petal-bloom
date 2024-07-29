@@ -113,6 +113,7 @@
   align-items: center;
   justify-content: center;
   flex: 1;
+  margin-bottom: 15px;
 }
 .birth-label {
   flex: 1;
@@ -125,4 +126,51 @@
   width: 110px;
   position: relative;
   left: -50px;
+}
+.student-nationality {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-top: 15px;
+}
+.student-nationality-con {
+  flex: 1;
+}
+#religion {
+  width: 40%;
+}
+#category {
+  width: 40%;
+}
+.student-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-top: 20px;
+}
+.student-address-con {
+  flex: 1;
+}
+.student-address-con2 {
+  flex: 2;
+}
+.student-address-box {
+  width: 200px;
+  position: relative;
+  left: -20px;
+}
+.student-contact {
+  width: 90%;
+}
+.student-qualification {
+  width: 90%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.stud-qual {
+  position: relative;
+  top: 3px;
 }
