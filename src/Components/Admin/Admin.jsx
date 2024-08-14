@@ -34,10 +34,12 @@ function Admin() {
           </div>
         </div>
         <div className="student-personal-info">
-          <p>STUDENT PERSONAL INFORMATION</p>
-          <p>ADMITTED INTO CLASS</p>
-          <div className="admission-box">
-            <input type="text" />
+          <div className="student-personal-box">
+            <p>STUDENT PERSONAL INFORMATION</p>
+            <p>ADMITTED INTO CLASS</p>
+            <div className="admission-box">
+              <input type="text" />
+            </div>
           </div>
           <div className="pic">pic</div>
 
@@ -266,13 +268,38 @@ function Admin() {
               </div>
             </div>
           </div>
-          {/*  */}
           <div className="student-name">
             <label className="student-label">Name of Local Guardian :</label>
             <div className="admission-box student-box">
               <input type="text" className="student-input" />
             </div>
           </div>
+
+          <div className="student-relation">
+            <label>Relation with Student:</label>
+            <div className="admission-box student-box">
+              <input type="text" className="student-input" />
+            </div>
+            <label>Contact no:</label>
+            <div className="admission-box student-box">
+              <input type="text" className="student-input" />
+            </div>
+          </div>
+          <div className="student-declaration">
+            <h1>DECLARATION BY THE PARENTS</h1>
+          </div>
+          <div className="student-relation">
+            <input type="checkbox" />
+            <p>Check</p>
+          </div>
+
+          <div className="stu-date">
+            <label className="student-label birth-label">Date</label>
+            <div className="admission-box  birth-input-box">
+              <input type="date" className="student-input birth-input" />
+            </div>
+          </div>
+          <button className="student-submit">Submit</button>
         </div>
       </div>
     </div>
