@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
+  flex: 0.5;
 }
 .img {
   background-image: url("/public/logo.png");

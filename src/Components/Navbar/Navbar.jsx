@@ -17,7 +17,10 @@ function Navbar() {
           <Link style={{ textDecoration: "none" }} to="/about">
             <a className="home">About us</a>
           </Link>
-          <a className="home">Addmission</a>
+          <Link style={{ textDecoration: "none" }} to="/admin">
+            <a className="home">Addmissioan</a>
+          </Link>
+
           <Link style={{ textDecoration: "none" }} to="/contact-us">
             <a className="home">Contact us</a>
           </Link>
